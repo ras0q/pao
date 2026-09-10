@@ -2,6 +2,8 @@
 
 Context-aware async resources for [Bubble Tea](https://github.com/charmbracelet/bubbletea) v2.
 
+TanStack Query-like fetch, refresh, and invalidate for Bubble Tea models.
+
 ## Install
 
 ```sh
@@ -48,3 +50,7 @@ func (m model) View() tea.View {
 - Canceling the resource context cancels its in-flight fetch.
 
 See the [example](_examples/main.go) for a runnable program.
+
+## Acknowledgements
+
+- [TanStack Query](https://tanstack.com/query): pao adapts its fetch, refresh, and invalidate model for Bubble Tea resources.
